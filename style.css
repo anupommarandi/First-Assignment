@@ -1,0 +1,137 @@
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:70px 10% ;
+}
+  
+.header{
+    
+    background-image: url('image/Hero-bg.png');
+}
+ 
+logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+.primary-btn{
+    background-color: #4f46e5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.hero{
+    text-align: center;
+    padding: 60px 10%;
+}
+
+.video-preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+    
+    
+
+
+.secondary-btn{
+    background-color: #4f46e5;
+    color: white;
+    border: 2px solid #4f46e5;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    background-color: #E5E7FF;
+    padding: 40px 0;
+}
+
+.stat-box{
+   text-align: center; 
+}
+
+.stat-box h2{
+    color: #4f46e5;
+    font-size: 2rem;
+}
+
+.testimonials{
+    padding: 60px 10%;
+    background-color: #fff;
+    text-align: center;
+}
+.testimonial-grid{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.testimonial{
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 9px;
+    width: 45;
+    background-image: url('image/icon-star.png'),url('image/avatar.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom left;
+
+}
+.product{
+    text-align: center;
+    padding: 50px 10%;
+    
+}
+.Webflow{
+    border-radius: 15px;
+}
+
+.contact{
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto ;
+}
+ 
+.contact input,textarea{
+    margin-bottom: 23px;
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px solid #fff;
+}
+
+h1{
+    font-size: bold;
+}
+
+.footer{
+    background-color: #fff;
+    text-align: center;
+    font-size: 15px;
+    padding: 25px;
+    border-top: 2px solid #f9f9f9;
+
+}
+.logo{
+    color: #4f46e5;
+}
+.footer ul li{
+    display: flex;
+    justify-content: space-around;
+    
+}
